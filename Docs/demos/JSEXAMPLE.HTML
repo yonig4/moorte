@@ -1,0 +1,34 @@
+<HTML>
+    <HEAD>
+		<TITLE>jsMath Example</TITLE>
+		<SCRIPT SRC="jsMath/plugins/noImageFonts.js"></SCRIPT>
+		<SCRIPT SRC="jsMath/jsMath.js"></SCRIPT>
+	</HEAD>
+    <BODY>
+		<SPAN CLASS="math"> ax^2 + bx + c = 0 </SPAN>
+		<DIV  CLASS="math"> x = {-b \pm \sqrt{b^2-4ac} \over 2a}.</DIV>
+*		<DIV  CLASS="math">\textstyle
+                           \sqrt{x+2}\quad \underline 4\quad \overline{x+y}\quad
+                           x^{\underline n}\quad x^{\overline{m+n}}
+                           \quad \sqrt{x^2+\sqrt{\alpha}}
+        </DIV>
+		<DIV  CLASS="math"> \cos x\,+\,\cos y\,=\,2 \cos \frac{x\,+\,y}{2} \cos \frac{x\,-\,y}{2} </DIV>
+		<SPAN CLASS="math">\textstyle
+                           10^{10}\quad 2^{n+1}\quad (n+1)^2\quad \sqrt{1-x^2}\quad
+                           \overline{w+\bar z}\quad p^{e_1}_1\quad a_{b_{c_{d_e}}}\quad
+                           \root 3 \of {h''_n(\alpha x)}
+		</SPAN>
+		<DIV  CLASS="math">(1+x)^n=1+nx/1!+(n(n-1) x^2)/2!+?</DIV>
+*		<DIV  CLASS="math"> x^2 + y^2 = r^2 </DIV> //(A^2+B^2=C^2 )
+*		<DIV  CLASS="math">A = \pi r^2 </DIV>
+*       <DIV  CLASS="math"> \sin x\,\pm\,\sin y\,=\,2 \sin \frac{x\,\pm\,y}{2} \cos \frac{x\,\mp\,y}{2} </DIV>
+*		<DIV  CLASS="math">	(x+y)^n = \sum_{r=0}^{n} {{n}\choose{r}}y^r x^{n-r} </DIV>
+		<DIV  CLASS="math"> \psi(x)=\sum_i C_i \phi_i(x) </DIV>
+		<SCRIPT>
+		
+                 //çsMath.ConvertTeX();
+                 jsMath.Process();
+		</SCRIPT>	  
+	  </BODY>
+</HTML>
+
