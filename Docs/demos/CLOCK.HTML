@@ -1,0 +1,36 @@
+<HTML>
+<HEAD>
+<script type="text/javascript" language="JavaScript">
+<!--
+function getCurrentTime()
+{
+var now = new Date();
+var h = now.getHours();
+var m = now.getMinutes();
+var pm = 'PM';
+var am = 'AM';
+var T = now.getDate ();
+var d = new Date();
+var n = d.getDate(); 
+
+if (m < 10)
+m = '0' + m
+if (h >= 12)
+m = m + pm
+if (h < 12)
+m = m = am
+
+var time = d + ':' + h + ':' + m;
+return time;
+}
+//-->
+</script>
+<TITLE>YONS IS SO COOL</TITLE>
+</HEAD>
+<BODY>
+<script type="text/javascript" language="JavaScript"><!--
+var myClock = getCurrentTime();
+document.write( myClock );
+//--></script>
+</BODY>
+</HTML>
